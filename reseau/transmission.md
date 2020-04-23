@@ -39,3 +39,4 @@ _Dans le cas où l'on émet en parallèle et que l'on souhaite envoyer en série
 - [linux-france](http://www.linux-france.org/prj/edu/archinet/systeme/ch02s03.html)
 - [geeksforgeeks vocabulary](https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/)
 - [transmission CCM](https://web.maths.unsw.edu.au/~lafaye/CCM/transmission/transmode.htm)
+- [marseille](http://www.pedagogie.ac-aix-marseille.fr/upload/docs/application/pdf/2015-02/transmission_serie.pdf)
