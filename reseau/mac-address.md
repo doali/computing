@@ -1,10 +1,14 @@
-# Vocabulaire
+# MAC address
 
-## Mode
-
-- connecté / non connecté
-- (commutation) circuit
-- bout en bout
+- Media Access Control Address
+- physical address
+- hardware address
+- and sometimes ethernet address
+- burnt into the device
+- 48 bits
+- FF:FF:FF:FF:FF:FF broadcast
+- `arp -a` list all ip addresses and their physical addresses
+- `rarp ...`
 
 # Biblio
 
