@@ -1,5 +1,7 @@
 # SSH
 
+_SSH-key-based authentication_
+
 ## `ssh-keygen`
 
 Tool for creating new authentication key pairs for SSH
@@ -38,6 +40,16 @@ ssh-keygen -t ed25519
 - `ssh-keygen -t ecdsa -b 521`
 
 ### Copying the public key to the server
+
+- `ssh-copy-id <login>@<host>`
+- `ssh-copy-id -p 1234 u0_a63@192.168.0.17`
+- `ssh-copy-id -p 2245 -i ~/.ssh/id_ecdsa.pub u0_a63@192.168.0.14`
+
+> copies `id_ecdsa.pub` on @`<host>` in `~/.ssh/authorized_keys`
+
+If ever ssh-copy-id was not availlable
+
+- `cat ~/.ssh/id_ecdsa.pub | ssh <username>@<remote_host> "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"`
 
 
 ## Biblio
