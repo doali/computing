@@ -51,6 +51,27 @@ If ever ssh-copy-id was not availlable
 
 - `cat ~/.ssh/id_ecdsa.pub | ssh <username>@<remote_host> "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"`
 
+### `ssh-agent`
+
+Helper that keeps track of identity keys and their passphrases
+
+- can use the keys to log into servers without asking the user to type in a password or passphrase again
+- mainly used for SSH plublic key authentication
+
+#### `SSH_AGENT_PID`
+
+Checking whether or not `ssh-agent` is running : `echo $SSH_AGENT_PID`
+
+```bash
+> echo $SSH_AGENT_PID
+1296
+```
+
+`SSH_AGENT_PID` is set, since its value is not empty => ssh-agent is more likely running
+
+#### Adding SSH keys to the Agent
+
+
 
 ## Biblio
 
