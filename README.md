@@ -1,2 +1,2 @@
 # Informatique
-_Documentation sur des sujet de bases ou fondamentaux..._
+_Documentation sur des sujet de base ou fondamentaux..._
