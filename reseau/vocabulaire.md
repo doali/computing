@@ -2,7 +2,7 @@
 
 ## Mode
 
-- connecté / non connecté
+- connecté (TCP) / non connecté (UDP)
 - (commutation) circuit
 - bout en bout
 
