@@ -122,7 +122,7 @@ bXlfcGFzc3dvcmQ=
 MAIL FROM:<titi@gmail.com>
 ```
 ```
-RCPT :<tutu@gmail.com>
+RCPT TO:<tutu@gmail.com>
 ```
 
 > Respect format !! `<my@gmail.com>` with `<` and `>`
