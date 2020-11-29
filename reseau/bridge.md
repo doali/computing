@@ -144,3 +144,4 @@ blackpc black-pc:/media/blackpc/Samsung USB/continuous-integration/doc
 - [rfwireless-world basics](https://www.rfwireless-world.com/Terminology/what-is-mac-address.html)
 - [rfwireless-world bridge](https://www.rfwireless-world.com/Terminology/network-bridge.html)
 - [help ubuntu bridge](https://help.ubuntu.com/community/NetworkConnectionBridge)
+- [bridge exemple](https://linux.developpez.com/formation_debian/bridge.html)
