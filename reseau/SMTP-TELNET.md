@@ -36,7 +36,7 @@ b'my_login'
 >>> 
 ```
 
-## Encode login and password
+## Encode login and password in base64
 
 ```python
 > python3
@@ -53,7 +53,7 @@ b'bXlfcGFzc3dvcmQ='
 >>> 
 ```
 
-### Straight forward encoding
+### Straight forward encoding with python in command line
 
 ```bash
 user user-pc:~ > python3 -c 'import base64; m_login = base64.b64encode("my_login".encode("ascii")); print(m_login)'
@@ -77,7 +77,7 @@ my_password
 user user-pc:~ > 
 ```
 
-# Gmail policy
+# Gmail policy : activate, deactivate
 
 ![via smartphone](gmail_app_policy.jpg)
 
@@ -94,6 +94,8 @@ openssl s_client -starttls smtp -connect smtp.gmail.com:587 -crlf -ign_eof
 EHLO titi
 ```
 
+> `HELO` does not work with Gmail
+
 ## step 3
 ```
 AUTH LOGIN
@@ -102,7 +104,7 @@ AUTH LOGIN
 > Server respone : `334 VXNlcm5hbWU6`
 > Server wants us to give it our login in `base64`
 
-_It's time to user our encoded login and password we have seen_
+_It's time to use our encoded login and password we have seen_
 
 > login : `bXlfbG9naW4=` for `my_login` \
 > password : `bXlfcGFzc3dvcmQ=` for `my_password`
@@ -121,6 +123,7 @@ bXlfcGFzc3dvcmQ=
 ```
 MAIL FROM:<titi@gmail.com>
 ```
+
 ```
 RCPT TO:<tutu@gmail.com>
 ```
@@ -158,14 +161,9 @@ QUIT
 ```bash
 > python3 -c "import base64; msg_server = base64.b64decode(b'VXNlcm5hbWU6').decode(); print(msg_server)"
 Username:
-blackpc blackpc-pc:~ 
+user user-pc:~ 
 > 
 ```
-
-
-
-
-
 
 # Biblio
 
