@@ -59,7 +59,7 @@ Chaque caractère est codé sur 6 bits (ce qui permet 2^6 possibilités, i.e. 64
 
 On peut simplement convertir une chaine de caractères avec la commande suivante
 
-`echo -n "A" | openssl base64`
+`echo -n "A" | openssl base64` mais aussi plus simplement `echo -n "A" | base64`
 
 ```bash
 > echo -n "A" | python3 -m base64
