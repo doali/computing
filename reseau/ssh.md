@@ -78,3 +78,4 @@ Checking whether or not `ssh-agent` is running : `echo $SSH_AGENT_PID`
 - [digitalocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604#step-2-%E2%80%94-copy-the-public-key-to-ubuntu-server)
 - [ssh.com](https://www.ssh.com/ssh/keygen/)
 - [docker alpine](https://wiki.alpinelinux.org/wiki/Setting_up_a_ssh-server)
+- [askubuntu_host_key](https://askubuntu.com/questions/87449/how-to-disable-strict-host-key-checking-in-ssh)

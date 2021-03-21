@@ -6,3 +6,7 @@
 (https://superuser.com/questions/1463794/linux-how-i-can-connect-tap-and-eth0)
 (http://robbie-cao.github.io/2016/08/learning-wifi)
 (https://www.pinterest.com/pin/431571576783054081/)
+
+# Visio
+
+(https://www.sstic.org/2019/presentation/keynote_2019/)
